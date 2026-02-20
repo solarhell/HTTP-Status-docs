@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTTP Status - 隐私政策 / Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1a73e8;
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+        h2 {
+            color: #1a73e8;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 24px;
+            border-bottom: 2px solid #e8f0fe;
+            padding-bottom: 8px;
+        }
+        h3 {
+            color: #5f6368;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        p {
+            margin-bottom: 15px;
+            color: #5f6368;
+        }
+        ul {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+            color: #5f6368;
+        }
+        .updated {
+            color: #999;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        .language-section {
+            margin-bottom: 60px;
+        }
+        .divider {
+            border: 0;
+            height: 2px;
+            background: linear-gradient(to right, #1a73e8, transparent);
+            margin: 60px 0;
+        }
+        strong {
+            color: #333;
+        }
+        .highlight {
+            background: #e8f0fe;
+            padding: 15px;
+            border-left: 4px solid #1a73e8;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 中文版本 -->
+        <div class="language-section">
+            <h1>HTTP Status - 隐私政策</h1>
+            <p class="updated">最后更新日期：2026年2月16日</p>
+
+            <div class="highlight">
+                <strong>简要说明：</strong>HTTP Status 扩展不收集、不存储、不传输任何用户个人信息。所有数据仅在您的浏览器本地处理，我们无法访问您的任何数据。
+            </div>
+
+            <h2>1. 扩展用途</h2>
+            <p>HTTP Status 是一个开发者工具扩展，专门用于在浏览器地址栏中显示当前网页的 HTTP 状态码。该扩展帮助开发者快速了解网页的响应状态、重定向链路和服务器信息。</p>
+
+            <h2>2. 数据收集与使用</h2>
+            <h3>2.1 我们不收集的数据</h3>
+            <p>HTTP Status 扩展 <strong>不收集、不存储、不传输</strong> 以下任何信息：</p>
+            <ul>
+                <li>个人身份信息（姓名、邮箱、电话等）</li>
+                <li>浏览历史记录</li>
+                <li>访问的网站地址（URL）</li>
+                <li>网页内容</li>
+                <li>表单数据或用户输入</li>
+                <li>Cookie 或认证信息</li>
+                <li>地理位置信息</li>
+                <li>任何可识别用户身份的数据</li>
+            </ul>
+
+            <h3>2.2 本地数据处理</h3>
+            <p>扩展仅在您的浏览器本地处理以下技术数据，<strong>这些数据不会离开您的设备</strong>：</p>
+            <ul>
+                <li><strong>HTTP 状态码</strong>：当前网页的 HTTP 响应状态（如 200、404 等）</li>
+                <li><strong>响应头信息</strong>：HTTP 响应头（如 Content-Type、Server 等）</li>
+                <li><strong>重定向链路</strong>：页面重定向的跳转记录</li>
+                <li><strong>服务器 IP 地址</strong>：当前网站的服务器 IP（由浏览器提供）</li>
+                <li><strong>扩展设置</strong>：您的个人偏好设置（存储在本地）</li>
+            </ul>
+
+            <h2>3. 权限说明</h2>
+            <p>HTTP Status 请求以下浏览器权限，仅用于实现核心功能：</p>
+
+            <h3>3.1 webRequest（网络请求监听）</h3>
+            <ul>
+                <li><strong>用途</strong>：监听 HTTP 请求和响应，获取状态码和响应头信息</li>
+                <li><strong>范围</strong>：仅读取 HTTP 响应的元数据（状态码、响应头）</li>
+                <li><strong>限制</strong>：不读取、不修改网页内容或请求正文</li>
+            </ul>
+
+            <h3>3.2 storage（本地存储）</h3>
+            <ul>
+                <li><strong>用途</strong>：保存扩展的配置选项和用户偏好设置</li>
+                <li><strong>范围</strong>：仅存储扩展相关的设置数据（如显示选项、调试模式等）</li>
+                <li><strong>限制</strong>：数据完全存储在本地，不同步到任何服务器</li>
+            </ul>
+
+            <h3>3.3 tabs（标签页访问）</h3>
+            <ul>
+                <li><strong>用途</strong>：获取当前标签页的基本信息（ID、URL），以便正确显示对应的 HTTP 状态</li>
+                <li><strong>范围</strong>：仅读取标签页元数据</li>
+                <li><strong>限制</strong>：不读取标签页内容，不修改标签页</li>
+            </ul>
+
+            <h3>3.4 host_permissions（主机权限）</h3>
+            <ul>
+                <li><strong>用途</strong>：访问所有网站的 HTTP 响应信息</li>
+                <li><strong>说明</strong>：由于用户可能访问任何网站，扩展需要此权限才能在所有网站上工作</li>
+                <li><strong>限制</strong>：仅读取 HTTP 元数据，不访问网页内容</li>
+            </ul>
+
+            <h2>4. 数据共享</h2>
+            <p><strong>我们不与任何第三方共享数据。</strong></p>
+            <p>由于扩展不收集任何数据，因此没有数据被共享、出售或传输给任何第三方机构、广告商或数据分析公司。</p>
+
+            <h2>5. 数据安全</h2>
+            <ul>
+                <li>所有数据处理完全在您的浏览器本地进行</li>
+                <li>扩展不包含任何追踪代码或分析工具</li>
+                <li>扩展不连接任何外部服务器</li>
+                <li>扩展不使用任何第三方服务或 SDK</li>
+                <li>源代码完全开源，可在 GitHub 上审查</li>
+            </ul>
+
+            <h2>6. 用户权利</h2>
+            <p>您可以随时：</p>
+            <ul>
+                <li>卸载扩展（所有本地数据将被自动删除）</li>
+                <li>清除扩展存储的设置（在扩展设置中）</li>
+                <li>撤销扩展的权限（在浏览器扩展管理页面）</li>
+                <li>查看扩展的开源代码（GitHub）</li>
+            </ul>
+
+            <h2>7. 儿童隐私</h2>
+            <p>本扩展不专门针对 13 岁以下儿童，也不故意收集儿童的任何信息。由于扩展不收集任何数据，因此适合所有年龄段用户使用。</p>
+
+            <h2>8. 隐私政策变更</h2>
+            <p>如果我们更新此隐私政策，将在此页面发布新版本，并更新"最后更新日期"。重大变更将通过扩展更新说明通知用户。</p>
+
+            <h2>9. 联系我们</h2>
+            <p>如果您对此隐私政策有任何疑问或建议，请通过以下方式联系我们：</p>
+            <ul>
+                <li>GitHub Issues: <a href="https://github.com/maicong/HTTP-Status/issues">https://github.com/maicong/HTTP-Status/issues</a></li>
+                <li>项目主页: <a href="https://github.com/maicong/HTTP-Status">https://github.com/maicong/HTTP-Status</a></li>
+            </ul>
+
+            <h2>10. 开源承诺</h2>
+            <p>HTTP Status 是一个完全开源的项目，遵循 MIT 许可证。您可以在 GitHub 上查看、审查和验证所有源代码，确保扩展的行为完全透明且符合此隐私政策的说明。</p>
+        </div>
+
+        <hr class="divider">
+
+        <!-- English Version -->
+        <div class="language-section">
+            <h1>HTTP Status - Privacy Policy</h1>
+            <p class="updated">Last Updated: February 16, 2026</p>
+
+            <div class="highlight">
+                <strong>TL;DR:</strong> HTTP Status extension does NOT collect, store, or transmit any personal user information. All data is processed locally in your browser, and we have no access to any of your data.
+            </div>
+
+            <h2>1. Extension Purpose</h2>
+            <p>HTTP Status is a developer tool extension designed to display the HTTP status code of the current webpage in the browser address bar. This extension helps developers quickly understand the response status, redirect chains, and server information of web pages.</p>
+
+            <h2>2. Data Collection and Use</h2>
+            <h3>2.1 Data We Do NOT Collect</h3>
+            <p>HTTP Status extension <strong>does NOT collect, store, or transmit</strong> any of the following information:</p>
+            <ul>
+                <li>Personally identifiable information (name, email, phone, etc.)</li>
+                <li>Browsing history</li>
+                <li>Visited website URLs</li>
+                <li>Web page content</li>
+                <li>Form data or user input</li>
+                <li>Cookies or authentication information</li>
+                <li>Geolocation data</li>
+                <li>Any data that can identify users</li>
+            </ul>
+
+            <h3>2.2 Local Data Processing</h3>
+            <p>The extension only processes the following technical data locally in your browser. <strong>This data never leaves your device</strong>:</p>
+            <ul>
+                <li><strong>HTTP Status Codes</strong>: HTTP response status of current webpage (e.g., 200, 404)</li>
+                <li><strong>Response Headers</strong>: HTTP response headers (e.g., Content-Type, Server)</li>
+                <li><strong>Redirect Chains</strong>: Page redirect jump records</li>
+                <li><strong>Server IP Address</strong>: Server IP of current website (provided by browser)</li>
+                <li><strong>Extension Settings</strong>: Your personal preference settings (stored locally)</li>
+            </ul>
+
+            <h2>3. Permission Explanations</h2>
+            <p>HTTP Status requests the following browser permissions, used solely for core functionality:</p>
+
+            <h3>3.1 webRequest (Network Request Monitoring)</h3>
+            <ul>
+                <li><strong>Purpose</strong>: Monitor HTTP requests and responses to retrieve status codes and response headers</li>
+                <li><strong>Scope</strong>: Only reads HTTP response metadata (status codes, headers)</li>
+                <li><strong>Limitation</strong>: Does not read or modify web page content or request bodies</li>
+            </ul>
+
+            <h3>3.2 storage (Local Storage)</h3>
+            <ul>
+                <li><strong>Purpose</strong>: Save extension configuration options and user preferences</li>
+                <li><strong>Scope</strong>: Only stores extension-related settings (e.g., display options, debug mode)</li>
+                <li><strong>Limitation</strong>: Data is completely stored locally, not synced to any server</li>
+            </ul>
+
+            <h3>3.3 tabs (Tab Access)</h3>
+            <ul>
+                <li><strong>Purpose</strong>: Get basic information of current tab (ID, URL) to correctly display corresponding HTTP status</li>
+                <li><strong>Scope</strong>: Only reads tab metadata</li>
+                <li><strong>Limitation</strong>: Does not read tab content, does not modify tabs</li>
+            </ul>
+
+            <h3>3.4 host_permissions (Host Permissions)</h3>
+            <ul>
+                <li><strong>Purpose</strong>: Access HTTP response information from all websites</li>
+                <li><strong>Explanation</strong>: Since users may visit any website, the extension needs this permission to work on all websites</li>
+                <li><strong>Limitation</strong>: Only reads HTTP metadata, does not access web page content</li>
+            </ul>
+
+            <h2>4. Data Sharing</h2>
+            <p><strong>We do NOT share data with any third parties.</strong></p>
+            <p>Since the extension does not collect any data, no data is shared, sold, or transmitted to any third-party organizations, advertisers, or data analytics companies.</p>
+
+            <h2>5. Data Security</h2>
+            <ul>
+                <li>All data processing is completely local in your browser</li>
+                <li>Extension contains no tracking code or analytics tools</li>
+                <li>Extension does not connect to any external servers</li>
+                <li>Extension does not use any third-party services or SDKs</li>
+                <li>Source code is fully open-source and available for review on GitHub</li>
+            </ul>
+
+            <h2>6. User Rights</h2>
+            <p>You can at any time:</p>
+            <ul>
+                <li>Uninstall the extension (all local data will be automatically deleted)</li>
+                <li>Clear extension-stored settings (in extension settings)</li>
+                <li>Revoke extension permissions (in browser extension management page)</li>
+                <li>Review the extension's open-source code (GitHub)</li>
+            </ul>
+
+            <h2>7. Children's Privacy</h2>
+            <p>This extension is not specifically directed at children under 13 and does not knowingly collect any information from children. Since the extension does not collect any data, it is suitable for users of all ages.</p>
+
+            <h2>8. Privacy Policy Changes</h2>
+            <p>If we update this privacy policy, we will post the new version on this page and update the "Last Updated" date. Significant changes will be communicated through extension update notes.</p>
+
+            <h2>9. Contact Us</h2>
+            <p>If you have any questions or suggestions about this privacy policy, please contact us through:</p>
+            <ul>
+                <li>GitHub Issues: <a href="https://github.com/maicong/HTTP-Status/issues">https://github.com/maicong/HTTP-Status/issues</a></li>
+                <li>Project Homepage: <a href="https://github.com/maicong/HTTP-Status">https://github.com/maicong/HTTP-Status</a></li>
+            </ul>
+
+            <h2>10. Open Source Commitment</h2>
+            <p>HTTP Status is a fully open-source project under the MIT License. You can view, review, and verify all source code on GitHub to ensure the extension's behavior is completely transparent and compliant with this privacy policy.</p>
+        </div>
+    </div>
+</body>
+</html>
