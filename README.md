@@ -1,15 +1,21 @@
-# HTTP Status - Chrome Web Store Documentation
+<p align="center">
+  <img src="icon-128.png" alt="HTTP Status" width="128" height="128">
+</p>
 
-This repository contains public documentation for the HTTP Status Chrome extension.
+<h1 align="center">HTTP Status - Documentation</h1>
 
-## 📄 Files
+## 关于这个仓库
 
-- **[privacy-policy.html](privacy-policy.html)** - Privacy Policy (English & 中文)
-- **[STORE_DESCRIPTION.md](STORE_DESCRIPTION.md)** - Chrome Web Store listing descriptions
-- **[PERMISSIONS_JUSTIFICATION.md](PERMISSIONS_JUSTIFICATION.md)** - Detailed permissions explanations
+本仓库包含 [HTTP Status](https://chromewebstore.google.com/detail/gfcmnhgedkgiimnffcjkamldnmnhjmja) 浏览器扩展的公开文档。
 
-## 🔗 Privacy Policy URL
+[![Chrome Web Store](https://img.shields.io/badge/点此安装-Chrome%20Web%20Store-141e24.svg?style=for-the-badge&logo=google-chrome&logoColor=white)](https://chromewebstore.google.com/detail/gfcmnhgedkgiimnffcjkamldnmnhjmja)
+
+## 📄 文件
+
+- **[privacy-policy.html](privacy-policy.html)** - 隐私政策 (English & 中文)
+- **[STORE_DESCRIPTION.md](STORE_DESCRIPTION.md)** - Chrome Web Store 商店描述
+- **[PERMISSIONS_JUSTIFICATION.md](PERMISSIONS_JUSTIFICATION.md)** - 权限说明
+
+## 🔗 隐私政策链接
 
 https://solarhell.github.io/HTTP-Status-docs/privacy-policy.html
-
-Use this URL when submitting to Chrome Web Store.
